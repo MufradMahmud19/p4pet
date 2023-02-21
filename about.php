@@ -42,7 +42,7 @@ section {
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: white;
+  color: black;
   font-size: 18px;
   text-decoration: none;
   text-align: center;
@@ -64,8 +64,26 @@ section {
     border: 1px solid #ccc;
 }
 .bg-dark{
-  background-color: #330033 !important;
+  background-color: white !important;
 }
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid purple;
+  background: #cc99ff;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: purple;
+  color: white;
+}
+
 .home {
   padding: 0px;
 }
@@ -79,7 +97,9 @@ section {
   height: 60rem;
   background-size: cover !important;
   background-position: center !important;
+
 }
+
 .home .slide .content {
   width: 50rem;
   padding: 50px 5px;
@@ -130,9 +150,116 @@ section {
   background: purple;
   color: white;
 }
+.subjects .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2rem;
+  padding: 10px 10px;
+}
+.subjects{
+  text-align: center;
+  padding: 40px 40px;
+}
+.subjects .box-container .box {
+  padding: 3rem 2rem;
+  text-align: center;
+  border: 0.1rem solid purple;
+  background: #cc99ff;
+  cursor: pointer;
+}
 
+.subjects .box-container .box:hover {
+  background: purple;
+}
 
+.subjects .box-container .box:hover h3 {
+  color: #fff;
+}
 
+.subjects .box-container .box:hover p {
+  color: #eee;
+}
+
+.subjects .box-container .box img {
+  height: 10rem;
+  margin-bottom: .7rem;
+}
+
+.subjects .box-container .box h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.subjects .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+
+.home-courses .slide {
+  text-align: center;
+  position: relative;
+  background:  black;
+  overflow: hidden;
+}
+
+.home-courses .slide:hover .content {
+  bottom: 0;
+}
+
+.home-courses .slide .image {
+  padding: 2rem;
+}
+
+.home-courses .slide .image img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.home-courses .slide .image h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.home-courses .slide .content {
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  left: 0;
+  background: #330033; //darkpurple
+  padding: 2rem 3rem;
+}
+
+.home-courses .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  color: #fff;
+}
+
+.home-courses .slide .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  color: #eee;
+}
+
+.home-courses .slide .content .btn:hover {
+  background: #444;
+}
+#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid purple;
+  padding: 20px 50px; 
+  width: max;
+  height: 150px;  
+}
 .footer{
    background-color: #cc99ff;
    text-align: center;
@@ -189,7 +316,7 @@ section {
         <li class="nav-item">
           <a class="nav-link" href="review.php">Review</a>
         </li>
-        <li class="nav-item">
+         <li class="nav-item">
           <a class="nav-link" href="quiz.php">Fun Quiz</a>
         </li>
             <li class="nav-item">
@@ -201,61 +328,49 @@ section {
 </nav>
 
 </header>
- 
+ <br> <br> <br><br> <br>
 
+<section class="subjects">
 
-<section class="home">
+   <h1 class="heading">Why Choose P4pet?</h1> <br><br>
 
-   <div class="swiper home-slider">
-      
-      <div class="swiper-wrapper">
+   <div class="box-container">
 
-         <section class="swiper-slide slide" style="background: url(images/cat_cover_1.jpg) no-repeat;">
-            <div class="content">
-               <h3>Your Pet's Helping Hand!</h3>
-               <h2 style="color: white;">(Cat section)</h2>
-               <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
-            </div>
-         </section>
-
-         <section class="swiper-slide slide" style="background: url(images/dog_cover_1.jpg) no-repeat;">
-            <div class="content">
-               <h3>Your Pet's Helping Hand!</h3>
-               <h2 style="color: white;">(Dog section)</h2>
-               <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
-            </div>
-         </section>
-
-         <section class="swiper-slide slide" style="background: url(images/bird_cover_1.jpg) no-repeat;">
-            <div class="content">
-               <h3>Your Pet's Helping Hand!</h3>
-               <h2 style="color: white;">(Bird section)</h2>
-               <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
-            </div> 
-         </section>
-
-         <section class="swiper-slide slide" style="background: url(images/rabbit_cover_1.jpg) no-repeat;">
-            <div class="content">
-               <h3 style="color: black;">Your Pet's Helping Hand!</h3>
-               <h2 style="color: black;">(Rabbit section)</h2>
-               <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
-            </div>
-         </section>
-
-
+      <div class="box">
+         <img src="images/vet_icon_1.png" alt="">
+         <h3>Medical inquiry</h3>
+         <p>Medical related queries and vet schedules.</p>
       </div>
 
-      <div class="swiper-pagination"></div>
+      <div class="box">
+         <img src="images/food_icon_1.png" alt="">
+         <h3>Pet food informations</h3>
+         <p>Pet wise food related informations.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/breed_icon_1.png" alt="">
+         <h3>Breed realted information</h3>
+         <p>Questionnaries related pet breeds.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/adoption_1.png" alt="">
+         <h3>Adoption</h3>
+         <p>Adoption related posts.</p>
+      </div>
+
+      
 
    </div>
- </section>
- <br> 
 
-<br><br><br>
+</section>
+<br> <br> <br>
+
+<center><h1 class="heading">Working Process</h1></center>
+<p id="rcorners1">Ekhanelekhba <br> jdkkdjsa</p>
+
+<br><br><br><br><br><br>
   
 <footer class="footer" id="footer">
 
