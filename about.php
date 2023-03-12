@@ -368,7 +368,7 @@ section {
 <br> <br> <br>
 
 <center><h1 class="heading">Working Process</h1></center>
-<p id="rcorners1">Ekhanelekhba <br> jdkkdjsa</p>
+<p id="rcorners1">◩ We collect strays which of them look sick and not in good shape.<br>🗹 We medicate them and take care of them.<br>🗹 We make them fit for adoption.<br>🗹 We edequetly verify their food habit through our own processes.<br>⊞ We post their availability and every other information.<br>▣ We always encourage to help the poor sweet beings of the earth as much as possible.</p>
 
 <br><br><br><br><br><br>
   
