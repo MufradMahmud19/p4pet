@@ -336,7 +336,7 @@ section {
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>Me-O Meo Creamy Treats Salmon Flavor (4*15gm)</h4>
+                    <h4>Me-O Meo Creamy Treats Salmon Flavor (4x15gm)</h4>
                     <p class="food-price">৳ 220</p>
                     <p class="food-detail">
                         An Absolute Mouth Watering Treat for Your Kitty. Meo Creamy Treat provides plaque protection and ensures fresh breath. Collagen Care Formula ensures healthy skin and beautiful fur. Included Prebiotics ensures good digestion and Glucosamine ensures good joints.
@@ -535,7 +535,7 @@ section {
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>COMPLETE CUNI ADULT Rabbit Food (1kg)</h4>
+                    <h4>Complete Cuni Adult Rabbit Food (1kg)</h4>
                     <p class="food-price">৳ 500</p>
                     <p class="food-detail">
                          An all-in-one pellet that selectively prevents eating behaviour in such a way that all essential nutrients are definitely eaten. In addition, it is a grain-free diet with long fibers such as Timothy. Tailored to the nutritional needs of an adult rabbit.
@@ -553,7 +553,7 @@ section {
                 </div>
 
                 <div class="food-menu-desc">
-                    <h4>SMARTHEART BRITER BUNNY (1KG)</h4>
+                    <h4>Smartheart Britter Bunny (1kg)</h4>
                     <p class="food-price">৳ 300</p>
                     <p class="food-detail">
                          Nutritionally complete formulated pellet food for your most endearing pet rabbit. Briter Bunny is a high value and convenient food full of nutritional quality meeting yours bunny needs.Fresh as natural food because it is full of vitamins and minerals found in plants and vegetables responsible for healthy, fresh, bright and lively rabbits that you love.

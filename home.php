@@ -369,7 +369,7 @@ section {
           <a class="nav-link" href="quiz.php">Fun Quiz</a>
         </li>
             <li class="nav-item">
-          <a class="nav-link" href="index.php">Contact</a>
+          <a class="nav-link" href="#footer">Contact</a>
         </li>
       </ul>
     </div>
@@ -389,36 +389,34 @@ section {
          <section class="swiper-slide slide" style="background: url(images/cat_cover_1.jpg) no-repeat;">
             <div class="content">
                <h3>Your Pet's Helping Hand!</h3>
-               <h2 style="color: white;">(Cat section)</h2>
+               <h2 style="color: white;">“Time spent with cats is never wasted.” – Sigmund Freud</h2>
                <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
             </div>
          </section>
 
          <section class="swiper-slide slide" style="background: url(images/dog_cover_1.jpg) no-repeat;">
             <div class="content">
                <h3>Your Pet's Helping Hand!</h3>
-               <h2 style="color: white;">(Dog section)</h2>
+               <h2 style="color: white;">“A dog is the only thing on earth that loves you more than you love yourself.” – Josh Billings</h2>
                <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
             </div>
          </section>
 
          <section class="swiper-slide slide" style="background: url(images/bird_cover_1.jpg) no-repeat;">
             <div class="content">
                <h3>Your Pet's Helping Hand!</h3>
-               <h2 style="color: white;">(Bird section)</h2>
+               <h2 style="color: white;">"In order to see birds, it is necessary to become a part of the silence." - Robert Lynd</h2>
                <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
+                
             </div> 
          </section>
 
          <section class="swiper-slide slide" style="background: url(images/rabbit_cover_1.jpg) no-repeat;">
             <div class="content">
                <h3 style="color: black;">Your Pet's Helping Hand!</h3>
-               <h2 style="color: black;">(Rabbit section)</h2>
+               <h2 style="color: black;">"The way rabbits live makes more sense to me than the way people live." - Marty Rubin</h2>
                <p></p>
-                <a href="home.php" class="bttn">Get Started</a>
+                
             </div>
          </section>
 
@@ -451,7 +449,7 @@ section {
 
       <div class="box">
          <img src="images/breed_icon_1.png" alt="">
-         <h3>Breed realted information</h3>
+         <h3>Breed related information</h3>
          <p>Questionnaries related pet breeds.</p>
       </div>
 
