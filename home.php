@@ -132,6 +132,182 @@ section {
 }
 
 
+.home {
+  padding: 0px;
+}
+.home .slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60rem;
+  background-size: cover !important;
+  background-position: center !important;
+
+}
+
+.home .slide .content {
+  width: 50rem;
+  padding: 50px 5px;
+}
+.home .slide .content .bttn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: #4d004d;
+}
+.home .slide .content h3 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  color: #444;
+  color: #fff;
+}
+.home .slide .content a{
+  text-decoration: none;
+}
+.home .slide .content p {
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #777;
+  color: #eee;
+  padding: 1rem 0;
+}
+
+.swiper-pagination-bullet-active {
+  background: purple;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border: 0.1rem solid purple;
+  background: #cc99ff;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: purple;
+  color: white;
+}
+.subjects .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2rem;
+  padding: 10px 10px;
+}
+.subjects{
+  text-align: center;
+  padding: 40px 40px;
+}
+.subjects .box-container .box {
+  padding: 3rem 2rem;
+  text-align: center;
+  border: 0.1rem solid purple;
+  background: #cc99ff;
+  cursor: pointer;
+}
+
+.subjects .box-container .box:hover {
+  background: purple;
+}
+
+.subjects .box-container .box:hover h3 {
+  color: #fff;
+}
+
+.subjects .box-container .box:hover p {
+  color: #eee;
+}
+
+.subjects .box-container .box img {
+  height: 10rem;
+  margin-bottom: .7rem;
+}
+
+.subjects .box-container .box h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: .5rem 0;
+}
+
+.subjects .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+}
+
+.home-courses .slide {
+  text-align: center;
+  position: relative;
+  background:  black;
+  overflow: hidden;
+}
+
+.home-courses .slide:hover .content {
+  bottom: 0;
+}
+
+.home-courses .slide .image {
+  padding: 2rem;
+}
+
+.home-courses .slide .image img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.home-courses .slide .image h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.home-courses .slide .content {
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  left: 0;
+  background: #330033; //darkpurple
+  padding: 2rem 3rem;
+}
+
+.home-courses .slide .content h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  color: #fff;
+}
+
+.home-courses .slide .content p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #777;
+  color: #eee;
+}
+
+.home-courses .slide .content .btn:hover {
+  background: #444;
+}
+#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid purple;
+  padding: 20px 50px; 
+  width: max;
+  height: 150px;  
+}
 
 .footer{
    background-color: #cc99ff;
@@ -181,19 +357,19 @@ section {
         <a class="nav-link" href="home.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.php">About</a>
+          <a class="nav-link" href="food.php">Food</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#footer">Contact</a>
+          <a class="nav-link" href="#footer">Adoption</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="review.php">Review</a>
+          <a class="nav-link" href="review.php">Medical</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="quiz.php">Fun Quiz</a>
         </li>
             <li class="nav-item">
-          <a class="nav-link" href="index.php">Login</a>
+          <a class="nav-link" href="index.php">Contact</a>
         </li>
       </ul>
     </div>
@@ -254,6 +430,44 @@ section {
    </div>
  </section>
  <br> 
+
+<section class="subjects">
+
+   <h1 class="heading">Why Choose P4pet?</h1> <br><br>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/vet_icon_1.png" alt="">
+         <h3>Medical inquiry</h3>
+         <p>Medical related queries and vet schedules.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/food_icon_1.png" alt="">
+         <h3>Pet food informations</h3>
+         <p>Pet wise food related informations.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/breed_icon_1.png" alt="">
+         <h3>Breed realted information</h3>
+         <p>Questionnaries related pet breeds.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/adoption_1.png" alt="">
+         <h3>Adoption</h3>
+         <p>Adoption related posts.</p>
+      </div>
+
+   </div>
+
+</section>
+<br> <br> <br>
+
+<center><h1 class="heading">Working Process</h1></center>
+<p id="rcorners1">◩ We collect strays which of them look sick and not in good shape.<br>🗹 We medicate them and take care of them.<br>🗹 We make them fit for adoption.<br>🗹 We edequetly verify their food habit through our own processes.<br>⊞ We post their availability and every other information.<br>▣ We always encourage to help the poor sweet beings of the earth as much as possible.</p>
 
 <br><br><br>
   
