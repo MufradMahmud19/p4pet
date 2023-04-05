@@ -431,7 +431,7 @@ section {
 
 <section class="subjects">
 
-   <h1 class="heading">Why Choose P4pet?</h1> <br><br>
+   <h1 class="heading">Why Choose P4Pet?</h1> <br><br>
 
    <div class="box-container">
 
