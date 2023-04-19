@@ -4,4 +4,4 @@ This is project of CSE 470 course of BRAC University. The name of the website is
   # To get access of the website:
   1. You have to have xampp control panel.
   2. You have start Apache and MySQL.
-  3. click the provided url link.
+  3. click the provided url link: http://localhost/p4pet/view/home.php
