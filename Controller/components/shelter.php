@@ -49,7 +49,7 @@
 
 
       <div class="box">
-         <p style="font-size: 2rem;">Meet Pushy, a really naughty cat who loves to scratch whom she love to interact with. We found him lost in a road near Mirpur 1 in April (2023). She was hungry and scared. We admitted her into our shelter home. We gave her proper medication and now she is quite healthy and safe here in our shelter.</p>
+         <p style="font-size: 2rem;">Meet Pushy, a really naughty cat who loves to scratch whom she love to interact with. We found her lost in a road near Mirpur 1 in April (2023). She was hungry and scared. We admitted her into our shelter home. We gave her proper medication and now she is quite healthy and safe here in our shelter.</p>
          
 
          <img src="../Controller/images/sheltered_cat_2.jpg" class = "thumb" alt="">
